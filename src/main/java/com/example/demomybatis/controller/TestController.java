@@ -23,7 +23,7 @@ public class TestController {
 
     @RequestMapping(value = "/seluser")
     public EntityDTO seluser() {
-        System.out.println("id" + 1);
+        System.out.println("id：" + 1);
         Integer id = 1;
        EntityDTO user= testService.getById(id);
         return user;
